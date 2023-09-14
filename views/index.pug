@@ -3,14 +3,54 @@ extends layout
 block content
   h1 Enter Your Words
   form(method ="POST" action="/story" id="words")
-    label(for="noun1") Noun:
-    input(type="text" name="noun1" id="noun1")
+    label(for="personinroom1") Person in room:
+    input(type="text" name="personinroom1" id="personinroom1")
     br
-    label(for="verb1") Verb:
-    input(type="text" name="verb1" id="verb1")
+    label(for="number1") Number:
+    input(type="text" name="number1" id="number1")
     br
     label(for="adjective1") Adjective:
     input(type="text" name="adjective1" id="adjective1")
+    br
+    label(for="color1") Person in room:
+    input(type="text" name="color1" id="color1")
+    br
+    label(for="noun1") Noun:
+    input(type="text" name="noun1" id="noun1")
+    br
+    label(for="typeoffood1") Type of food:
+    input(type="text" name="typeoffood1" id="typeoffood1")
+    br
+    label(for="noun2") Noun:
+    input(type="text" name="noun2" id="noun2")
+    br
+    label(for="verbendingining1") Verb ending in "ing":
+    input(type="text" name="verbendingining1" id="verbendingining1")
+    br
+    label(for="articleofclothing1") Article of clothing:
+    input(type="text" name="articleofclothing1" id="articleofclothing1")
+    br
+    label(for="adjective2") Adjective:
+    input(type="text" name="adjective2" id="adjective2")
+    br
+    label(for="famousperson1") Famous person:
+    input(type="text" name="famousperson1" id="famousperson1")
+    br
+    label(for="number2") Number:
+    input(type="text" name="number2" id="number2")
+    br
+    label(for="personinroom2") Person in room:
+    input(type="text" name="personinroom2" id="personinroom2")
+    br
+    label(for="noun3") Noun:
+    input(type="text" name="noun3" id="noun3")
+    br
+    label(for="personinroom3") Person in room:
+    input(type="text" name="personinroom3" id="personinroom3")
+    br
+    label(for="occupation1") Occupation:
+    input(type="text" name="occupation1" id="occupation1")
+    br
     label(for="storyChoice") Choose One
     select(from="words" name="storyChoice" id="storyChoice")
       option(value = "1") Story 1
